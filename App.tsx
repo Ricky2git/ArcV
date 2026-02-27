@@ -1,14 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { ProductShowcase } from './components/ProductShowcase';
-import { ModularConcept } from './components/ModularConcept';
-import { AILayer } from './components/AILayer';
-import { WhyArcVion } from './components/WhyArcVion';
-import { Industries } from './components/Industries';
-import { CallToAction } from './components/CallToAction';
-import { Footer } from './components/Footer';
+import { Navbar } from './components/Navbar.tsx';
+import { Hero } from './components/Hero.tsx';
+import { ProductShowcase } from './components/ProductShowcase.tsx';
+import { ModularConcept } from './components/ModularConcept.tsx';
+import { AILayer } from './components/AILayer.tsx';
+import { WhyArcVion } from './components/WhyArcVion.tsx';
+import { Industries } from './components/Industries.tsx';
+import { CallToAction } from './components/CallToAction.tsx';
+import { Footer } from './components/Footer.tsx';
 
 const App: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
