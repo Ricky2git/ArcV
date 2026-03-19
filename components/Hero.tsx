@@ -202,8 +202,8 @@ export const Hero: React.FC<HeroProps> = ({ scrollY }) => {
           transition={{ duration: 1, delay: 0.4 }}
           className="text-7xl md:text-[9rem] font-bold font-heading mb-10 tracking-tighter leading-[0.85] flex flex-col"
         >
-          <span className="text-white drop-shadow-[0_5px_15px_rgba(0,0,0,0.5)]">ONE PLATFORM.</span>
-          <span className="animate-gradient-text italic font-black">INFINITE MISSIONS.</span>
+          <span className="text-white drop-shadow-[0_5px_15px_rgba(0,0,0,0.5)]">ONE PLATFORM</span>
+          <span className="animate-gradient-text italic font-black">INFINITE MISSIONS</span>
         </motion.h1>
 
         <motion.p
